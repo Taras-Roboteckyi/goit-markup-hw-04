@@ -118,7 +118,7 @@ body {
 .contacts .contacts-ref {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.15;
+  line-height: 1.142;
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
@@ -138,7 +138,15 @@ body {
 .contacts .contacts-ref {
   color: var(--secondary-text-color);
 }
-
+/*-- Іконки Шапки сайту-- */
+.contacts-ref {
+  display: flex;
+  align-items: center;
+}
+.icon-contacts {
+  margin-right: 10px;
+  fill: currentColor;
+}
 /*-- Унікальний контент сторінки --*/
 /*-- Головна секція сайту --*/
 .hero {
