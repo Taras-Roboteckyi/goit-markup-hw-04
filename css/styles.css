@@ -402,6 +402,13 @@ body {
   background-color: #2f303a;
 }
 
+/*---Контейнер підвалу---*/
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 /*-- Логотип сайту --*/
 
 .footer-logo {
@@ -433,6 +440,53 @@ body {
 .footer-list .footer-ref:hover,
 .footer-list .footer-ref:focus {
   color: var(--accent-color);
+}
+
+/*--- Контейнер"Присоединяйтесь" ---*/
+
+.footer-social-container {
+  display: block;
+  margin-left: 70px;
+}
+.footer-social-list {
+  display: flex;
+}
+
+.footer-name {
+  margin-bottom: 20px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+/*---Список іконок в підвалі----*/
+
+.footer-social-items {
+  width: 44px;
+  height: 44px;
+}
+.footer-social-items:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-social-ref {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  fill: var(--primary-white-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-ref:hover,
+.footer-social-ref:focus {
+  background-color: var(--accent-color);
 }
 
 /*-------- Кінець головної сторінки сайту--------*/
@@ -488,6 +542,12 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc((100% - 90px) / 3);
+}
+
+.cards-item:hover,
+.cards-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-container {
